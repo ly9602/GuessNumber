@@ -46,9 +46,9 @@ public class guessgame {
         	
         	if (p1isRight || p2isRight ||p3isRight) {
         		System.out.println("Let's see who won ?");
-        		System.out.println("player one got it right "+p1isRight);
-        		System.out.println("player two got it right "+p2isRight);
-        		System.out.println("player three got it right "+p3isRight);
+        		System.out.println("player one got it "+p1isRight);
+        		System.out.println("player two got it "+p2isRight);
+        		System.out.println("player three got it "+p3isRight);
         		System.out.println("You win!");
         		break;//猜对，则跳出while循环
         		}else {
